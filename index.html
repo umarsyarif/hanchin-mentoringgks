@@ -286,6 +286,7 @@
                     </div>
                     <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-2">Mentoring Semi Private</h3>
                     <p class="text-slate-500 dark:text-slate-400 mb-6">Bimbingan intensif dalam group kecil 2-4 peserta.</p>
+                    <span class="text-base text-rose-400 line-through">Rp 1.099.000</span>
                     <div class="flex items-baseline mb-8">
                         <span class="text-4xl font-black text-slate-900 dark:text-white">Rp 549.000</span>
                         <span class="text-slate-500 dark:text-slate-400 ml-2">/ program</span>
@@ -341,6 +342,7 @@
                         <span class="text-accent material-symbols-outlined fill-1">workspace_premium</span>
                     </h3>
                     <p class="text-slate-500 dark:text-slate-400 mb-6">Pendampingan intensif 1-on-1 yang personal dan mendalam antara mentor dan mentee.</p>
+                    <span class="text-base text-rose-400 line-through">Rp 2.099.000</span>
                     <div class="flex items-baseline mb-8">
                         <span class="text-4xl font-black text-slate-900 dark:text-white">Rp 1.099.000</span>
                         <span class="text-slate-500 dark:text-slate-400 ml-2">/ program</span>
@@ -518,7 +520,7 @@
                                 </div>
                                 <input
                                     class="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary sm:text-sm"
-                                    id="fullname" placeholder="John Doe" type="text" />
+                                    id="fullname" placeholder="John Doe" type="text" required />
                             </div>
                         </div>
                         <div>
@@ -530,7 +532,7 @@
                                 </div>
                                 <input
                                     class="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary sm:text-sm"
-                                    id="whatsapp" placeholder="081234567890" type="tel" />
+                                    id="whatsapp" placeholder="081234567890" type="tel" required />
                             </div>
                         </div>
                         <div>
@@ -542,7 +544,7 @@
                                 </div>
                                 <select
                                     class="block w-full pl-10 pr-10 py-2.5 border border-gray-300 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary sm:text-sm appearance-none bg-white"
-                                    id="program">
+                                    id="program" required>
                                     <option disabled="" selected="" value="">-- Pilih Paket --</option>
                                     <option value="group">Mentoring Semi Private (Rp 549rb)</option>
                                     <option value="private">Mentoring Private (Rp 1.099rb)</option>
@@ -553,6 +555,7 @@
                             </div>
                         </div>
                         <button
+                            id="form-submit"
                             class="w-full flex items-center justify-center gap-2 py-3 px-6 border border-transparent rounded-lg shadow-sm text-sm font-bold text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-all transform hover:-translate-y-0.5"
                             type="submit">
                             Daftar Sekarang
@@ -581,7 +584,7 @@
                         berkualitas global.
                     </p>
                     <div class="flex gap-4">
-                        <a class="text-slate-400 hover:text-primary transition-colors" href="#">
+                        <a class="text-slate-400 hover:text-primary transition-colors" href="https://www.instagram.com/hanchinkorea/">
                             <span class="sr-only">Instagram</span>
                             <svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24">
                                 <path
