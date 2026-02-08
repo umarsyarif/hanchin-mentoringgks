@@ -18,7 +18,6 @@ function setCookie(name, value, days = 90) {
     d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
     const expires = "expires=" + d.toUTCString();
     document.cookie = name + "=" + value + ";" + expires + ";path=/";
-    console.log(document.cookie);
 }
 
 // Handle form submission
@@ -37,14 +36,13 @@ document.addEventListener('DOMContentLoaded', function () {
             // Hash email and store in cookie
             const hashedEmail = await sha256(email);
             setCookie('em', hashedEmail);
-            console.log(hashedEmail);
             // Build WhatsApp redirect URL with form values
             const waText = `Halo admin saya mau daftar Mentoring GKS\n\nNama: ${nama}\nEmail: ${email}\nNo. WA: ${wa}`;
             const encodedText = encodeURIComponent(waText);
             const whatsappUrl = `https://api.whatsapp.com/send?phone=821021824790&text=${encodedText}`;
 
             // Redirect to WhatsApp
-            // window.location.href = whatsappUrl;
+            window.location.href = whatsappUrl;
         });
     }
 });
