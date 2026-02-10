@@ -1,24 +1,17 @@
 <!DOCTYPE html>
-
 <html class="light" lang="id">
 
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Hanchin Mentoring - GKS-G Scholarship</title>
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet" />
-    <!-- Material Symbols -->
     <link
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
         rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
-        rel="stylesheet" />
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <script id="tailwind-config">
         tailwind.config = {
@@ -26,8 +19,8 @@
             theme: {
                 extend: {
                     colors: {
-                        "primary": "#3ca1bd", // Vibrant Blue
-                        "secondary": "#114b7c", // Navy / Dark Background
+                        "primary": "#135bec", // Vibrant Blue
+                        "secondary": "#101622", // Navy / Dark Background
                         "accent": "#F59E0B", // Gold for prestige
                         "background-light": "#f6f6f8",
                         "background-dark": "#101622",
@@ -56,27 +49,22 @@
 </head>
 
 <body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white overflow-x-hidden">
-    <!-- Navbar -->
     <header
         class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-[#101622]/90 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center gap-3">
-                    <div class="size-12 flex items-center justify-center">
-                        <img src="https://cdn.jsdelivr.net/gh/umarsyarif/hanchin-assets/web/logo160.svg" alt=""
-                            srcset="">
-                    </div>
-                    <!-- <div class="size-8 rounded bg-primary flex items-center justify-center text-white">
+                    <div class="size-8 rounded bg-primary flex items-center justify-center text-white">
                         <span class="material-symbols-outlined text-xl">school</span>
-                    </div> -->
-                    <span class="font-bold text-xl tracking-tight text-slate-900 dark:text-white">Hanchin GKS
+                    </div>
+                    <span class="font-bold text-xl tracking-tight text-slate-900 dark:text-white">Hanchin
                         Mentoring</span>
                 </div>
                 <nav class="hidden md:flex gap-8">
                     <a class="text-sm font-medium text-slate-600 hover:text-primary dark:text-slate-300 transition-colors"
                         href="#problem">Masalah</a>
                     <a class="text-sm font-medium text-slate-600 hover:text-primary dark:text-slate-300 transition-colors"
-                        href="#pricing">Program</a>
+                        href="#program">Program</a>
                     <a class="text-sm font-medium text-slate-600 hover:text-primary dark:text-slate-300 transition-colors"
                         href="#bonus">Bonus</a>
                 </nav>
@@ -87,7 +75,6 @@
             </div>
         </div>
     </header>
-    <!-- Hero Section -->
     <section class="pt-32 pb-16 lg:pt-40 lg:pb-24 px-4 overflow-hidden relative">
         <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
             <div class="flex flex-col gap-6 z-10">
@@ -95,21 +82,21 @@
                     class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-900/30 border border-blue-100 dark:border-blue-800 w-fit">
                     <span class="size-2 rounded-full bg-accent animate-pulse"></span>
                     <span class="text-xs font-bold text-primary dark:text-blue-300 uppercase tracking-wide">Pendaftaran
-                        GKS-G 2026 Segera Dibuka</span>
+                        GKS-G Segera Dibuka</span>
                 </div>
                 <h1
                     class="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight text-slate-900 dark:text-white tracking-tight">
                     Raih Beasiswa <span class="text-primary relative inline-block">
                         GKS-G
                         <svg class="absolute w-full h-3 -bottom-1 left-0 text-accent opacity-30"
-                            preserveaspectratio="none" viewbox="0 0 100 10">
+                            preserveAspectRatio="none" viewBox="0 0 100 10">
                             <path d="M0 5 Q 50 10 100 5" fill="none" stroke="currentColor" stroke-width="8"></path>
                         </svg>
                     </span> Impianmu
                 </h1>
                 <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed max-w-xl">
-                    Bimbingan strategis aplikasi GKS-mu. Mulai dari riset kampus, penulisan essay, persiapan dokumen,
-                    hingga tahap interview untuk memaksimalkan peluang lolos seleksi beasiswa Korea Selatan.
+                    Bimbingan strategis penulisan esai, personal statement, dan study plan untuk memaksimalkan peluang
+                    lolos seleksi beasiswa Korea Selatan.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 mt-2">
                     <a class="flex items-center justify-center h-12 px-8 rounded-lg bg-primary hover:bg-blue-700 text-white font-bold transition-all shadow-lg hover:shadow-primary/30"
@@ -137,8 +124,8 @@
                                 <span class="material-symbols-outlined text-[16px] leading-none fill-1">star</span>
                                 <span class="material-symbols-outlined text-[16px] leading-none fill-1">star</span>
                             </div>
-                            <span class="text-xs font-medium text-slate-500 dark:text-slate-400">Dibimbing oleh Awardee
-                                GKS</span>
+                            <span class="text-xs font-medium text-slate-500 dark:text-slate-400">Trusted by 500+
+                                Applicants</span>
                         </div>
                     </div>
                 </div>
@@ -166,7 +153,6 @@
             </div>
         </div>
     </section>
-    <!-- Problem Section -->
     <section class="py-20 bg-white dark:bg-[#151b2b]" id="problem">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
@@ -175,18 +161,16 @@
                     kuliah di Korea. Kami membantu memperbaiki kelemahan fatal dalam aplikasimu.</p>
             </div>
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Card 1 -->
                 <div
                     class="bg-background-light dark:bg-background-dark p-8 rounded-2xl border border-gray-100 dark:border-gray-800 hover:shadow-xl transition-shadow group">
                     <div
                         class="w-12 h-12 rounded-xl bg-red-100 text-red-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                        <span class="material-symbols-outlined">history_edu</span>
+                        <span class="material-symbols-outlined">description</span>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Esai Tidak Konsisten</h3>
                     <p class="text-slate-600 dark:text-slate-400">Narasi antara Personal Statement dan Study Plan
                         seringkali tidak selaras, membuat reviewer meragukan keseriusanmu.</p>
                 </div>
-                <!-- Card 2 -->
                 <div
                     class="bg-background-light dark:bg-background-dark p-8 rounded-2xl border border-gray-100 dark:border-gray-800 hover:shadow-xl transition-shadow group">
                     <div
@@ -197,21 +181,19 @@
                     <p class="text-slate-600 dark:text-slate-400">Alasan memilih universitas terlalu umum (generic) dan
                         tidak menunjukkan pemahaman mendalam tentang kurikulum.</p>
                 </div>
-                <!-- Card 3 -->
                 <div
                     class="bg-background-light dark:bg-background-dark p-8 rounded-2xl border border-gray-100 dark:border-gray-800 hover:shadow-xl transition-shadow group">
                     <div
                         class="w-12 h-12 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                        <span class="material-symbols-outlined">description</span>
+                        <span class="material-symbols-outlined">history_edu</span>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Dokumen Tidak Selaras</h3>
-                    <p class="text-slate-600 dark:text-slate-400">Dokumen-dokumen tidak selaras dengan isi essay,
-                        sehingga tidak dapat mayakinkan reviewer.</p>
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Struktur Berantakan</h3>
+                    <p class="text-slate-600 dark:text-slate-400">Alur cerita yang melompat-lompat dan tata bahasa yang
+                        kaku membuat esai sulit dipahami poin utamanya.</p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Overview & Who is this for -->
     <section class="py-20 bg-background-light dark:bg-background-dark overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -227,23 +209,23 @@
                         <ul class="space-y-4">
                             <li class="flex items-start gap-3">
                                 <span class="material-symbols-outlined text-green-500 mt-0.5 shrink-0">check</span>
-                                <span class="text-slate-700 dark:text-slate-300">Bingung dalam memilih Universitas,
-                                    Jurusan, dan Track pendaftaran.</span>
+                                <span class="text-slate-700 dark:text-slate-300">Merasa bingung harus mulai menulis esai
+                                    dari mana.</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="material-symbols-outlined text-green-500 mt-0.5 shrink-0">check</span>
-                                <span class="text-slate-700 dark:text-slate-300">Merasa bingung harus mulai
-                                    mempersiapkan dokumen dari mana.</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="material-symbols-outlined text-green-500 mt-0.5 shrink-0">check</span>
-                                <span class="text-slate-700 dark:text-slate-300">Butuh feedback essay yang terarah &amp;
-                                    detail, bukan sekadar cek grammar.</span>
+                                <span class="text-slate-700 dark:text-slate-300">Butuh feedback jujur &amp; detail,
+                                    bukan sekadar cek grammar.</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="material-symbols-outlined text-green-500 mt-0.5 shrink-0">check</span>
                                 <span class="text-slate-700 dark:text-slate-300">Ingin tahu perspektif apa yang dicari
-                                    oleh reviewer GKS.</span>
+                                    oleh professor Korea.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-green-500 mt-0.5 shrink-0">check</span>
+                                <span class="text-slate-700 dark:text-slate-300">Memiliki deadline mepet tapi ingin
+                                    hasil maksimal.</span>
                             </li>
                         </ul>
                     </div>
@@ -252,11 +234,11 @@
                     <h2 class="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-6">Bimbingan Terstruktur
                         &amp; Berbasis Pengalaman</h2>
                     <p class="text-lg text-slate-600 dark:text-slate-300 mb-6">
-                        Kami tidak hanya mereview essay. Tim mentor kami adalah awardee GKS yang telah melalui proses
-                        yang sama. Kami membantu meruntunkan narasimu, menonjolkan kelebihan unikmu, dan memastikan
-                        setiap kalimat memiliki tujuan strategis.
+                        Kami tidak hanya mengoreksi tata bahasa. Tim mentor kami adalah awardee GKS yang telah melalui
+                        proses yang sama. Kami membantu meruntunkan narasimu, menonjolkan kelebihan unikmu, dan
+                        memastikan setiap kalimat memiliki tujuan strategis.
                     </p>
-                    <!-- <div class="grid grid-cols-2 gap-6">
+                    <div class="grid grid-cols-2 gap-6">
                         <div class="border-l-4 border-primary pl-4">
                             <p class="text-3xl font-black text-slate-900 dark:text-white">90%</p>
                             <p class="text-sm text-slate-500 dark:text-slate-400">Mentee Lolos Tahap Dokumen</p>
@@ -265,12 +247,11 @@
                             <p class="text-3xl font-black text-slate-900 dark:text-white">50+</p>
                             <p class="text-sm text-slate-500 dark:text-slate-400">Univ. Tujuan Top SKY &amp; KAIST</p>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Pricing Section -->
     <section class="py-24 bg-white dark:bg-[#151b2b]" id="pricing">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -279,63 +260,43 @@
                 </h2>
             </div>
             <div class="grid lg:grid-cols-2 gap-8 max-w-5xl mx-auto items-start">
-                <!-- Group Mentoring -->
                 <div
                     class="bg-white dark:bg-background-dark rounded-2xl border border-gray-200 dark:border-gray-800 p-8 shadow-sm hover:shadow-lg transition-all relative overflow-hidden">
                     <div class="absolute top-0 right-0 p-4 opacity-10">
                         <span class="material-symbols-outlined text-9xl">groups</span>
                     </div>
-                    <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-2">Mentoring Semi Private</h3>
-                    <p class="text-slate-500 dark:text-slate-400 mb-6">Bimbingan intensif dalam group kecil 2-4 peserta.
-                    </p>
-                    <span class="text-base text-rose-400 line-through">Rp 1.099.000</span>
+                    <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-2">Mentoring Group</h3>
+                    <p class="text-slate-500 dark:text-slate-400 mb-6">Belajar bersama komunitas pejuang GKS dengan
+                        materi komprehensif.</p>
                     <div class="flex items-baseline mb-8">
-                        <span class="text-4xl font-black text-slate-900 dark:text-white">Rp 549.000</span>
+                        <span class="text-4xl font-black text-slate-900 dark:text-white">Rp 350.000</span>
                         <span class="text-slate-500 dark:text-slate-400 ml-2">/ program</span>
                     </div>
                     <ul class="space-y-4 mb-8 border-t border-gray-100 dark:border-gray-800 pt-6">
                         <li class="flex items-start gap-3">
                             <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
-                            <span class="text-slate-700 dark:text-slate-300 text-sm">6x Sesi Konsultasi Grup (60
-                                menit)</span>
+                            <span class="text-slate-700 dark:text-slate-300 text-sm">3x Webinar Sesi Bedah
+                                Dokumen</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
-                            <span class="text-slate-700 dark:text-slate-300 text-sm">Q&amp;A 24 jam di Group
-                                Whatsapp</span>
+                            <span class="text-slate-700 dark:text-slate-300 text-sm">Q&amp;A Session di Grup
+                                Telegram</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
                             <span class="text-slate-700 dark:text-slate-300 text-sm">Akses Rekaman Selamanya</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
-                            <span class="text-slate-700 dark:text-slate-300 text-sm">Review &amp; Proofreading Essay
-                                1x</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
-                            <span class="text-slate-700 dark:text-slate-300 text-sm">Simulasi Mock Interview</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
-                            <span class="text-slate-700 dark:text-slate-300 text-sm">Analisis Kampus, Jurusan, dan Track
-                                Strategis</span>
-                        </li>
-                        <li class="flex items-start gap-3">
                             <span class="material-symbols-outlined text-gray-400 text-xl">cancel</span>
-                            <span class="text-gray-400 text-sm line-through">Bisa Langsung Mulai Segera Setelah
-                                Daftar</span>
+                            <span class="text-gray-400 text-sm line-through">1-on-1 Essay Review</span>
                         </li>
                     </ul>
-                    <a class="flex justify-center w-full py-3 px-6 rounded-lg border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-colors"
-                        href="#bonus">
+                    <button
+                        class="w-full py-3 px-6 rounded-lg border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-colors">
                         Daftar Group Class
-                    </a>
-                    <p class="text-xs text-center text-slate-400 mt-4">Mentoring akan dimulai jika jumlah peserta sudah
-                        mencukupi</p>
+                    </button>
                 </div>
-                <!-- Private Mentoring -->
                 <div
                     class="bg-white dark:bg-background-dark rounded-2xl border-2 border-primary p-8 shadow-xl relative overflow-hidden transform lg:-translate-y-4">
                     <div class="absolute top-0 inset-x-0 h-2 bg-primary"></div>
@@ -347,37 +308,27 @@
                         Mentoring Private
                         <span class="text-accent material-symbols-outlined fill-1">workspace_premium</span>
                     </h3>
-                    <p class="text-slate-500 dark:text-slate-400 mb-6">Pendampingan intensif 1-on-1 yang personal dan
-                        mendalam antara mentor dan mentee.</p>
-                    <span class="text-base text-rose-400 line-through">Rp 2.099.000</span>
+                    <p class="text-slate-500 dark:text-slate-400 mb-6">Bimbingan intensif 1-on-1 untuk hasil dokumen
+                        yang sempurna.</p>
                     <div class="flex items-baseline mb-8">
-                        <span class="text-4xl font-black text-slate-900 dark:text-white">Rp 1.099.000</span>
+                        <span class="text-4xl font-black text-slate-900 dark:text-white">Rp 1.250.000</span>
                         <span class="text-slate-500 dark:text-slate-400 ml-2">/ program</span>
                     </div>
                     <ul class="space-y-4 mb-8 border-t border-gray-100 dark:border-gray-800 pt-6">
-                        <!-- <li class="flex items-start gap-3">
-                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
-                            <span class="text-slate-700 dark:text-slate-300 text-sm font-bold">Semua Benefit Semi Private
-                                Class</span>
-                        </li> -->
                         <li class="flex items-start gap-3">
                             <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
-                            <span class="text-slate-700 dark:text-slate-300 text-sm">6x Sesi Konsultasi 1-on-1 (60
+                            <span class="text-slate-700 dark:text-slate-300 text-sm font-bold">Semua Benefit Group
+                                Class</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                            <span class="text-slate-700 dark:text-slate-300 text-sm">3x Sesi Konsultasi 1-on-1 (60
                                 menit)</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
-                            <span class="text-slate-700 dark:text-slate-300 text-sm">Q&amp;A 24 jam di Group
-                                Whatsapp</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
-                            <span class="text-slate-700 dark:text-slate-300 text-sm">Akses Rekaman Selamanya</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
-                            <span class="text-slate-700 dark:text-slate-300 text-sm">Review &amp; Proofreading Essay
-                                2x</span>
+                            <span class="text-slate-700 dark:text-slate-300 text-sm">Review &amp; Proofreading Mendalam
+                                (Unlimited Revisions)</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
@@ -385,80 +336,65 @@
                         </li>
                         <li class="flex items-start gap-3">
                             <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
-                            <span class="text-slate-700 dark:text-slate-300 text-sm">Analisis Kampus, Jurusan, dan Track
-                                Strategis</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <span class="material-symbols-outlined text-primary text-xl">check_circle</span>
-                            <span class="text-slate-700 dark:text-slate-300 text-sm">Bisa Langsung Mulai Segera Setelah
-                                Daftar</span>
+                            <span class="text-slate-700 dark:text-slate-300 text-sm">Analisis Jurusan Strategis</span>
                         </li>
                     </ul>
-                    <a class="flex justify-center w-full py-3 px-6 rounded-lg bg-primary text-white font-bold hover:bg-blue-700 transition-colors shadow-lg hover:shadow-primary/40"
-                        href="#bonus">
+                    <button
+                        class="w-full py-3 px-6 rounded-lg bg-primary text-white font-bold hover:bg-blue-700 transition-colors shadow-lg hover:shadow-primary/40">
                         Amankan Slot Private
-                    </a>
-                    <p class="text-xs text-center text-slate-400 mt-4">Slot terbatas hanya untuk 1 orang/mentor</p>
+                    </button>
+                    <p class="text-xs text-center text-slate-400 mt-4">Slot terbatas hanya untuk 10 orang/bulan</p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- How it works -->
     <section class="py-20 bg-background-light dark:bg-background-dark">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold text-center text-slate-900 dark:text-white mb-12">Alur Bimbingan</h2>
             <div class="relative">
-                <!-- Line for desktop -->
                 <div
                     class="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-gray-200 dark:bg-gray-700 -translate-y-1/2 z-0">
                 </div>
                 <div class="grid md:grid-cols-4 gap-8 relative z-10">
-                    <!-- Step 1 -->
                     <div
                         class="bg-white dark:bg-[#151b2b] p-6 rounded-xl border border-gray-100 dark:border-gray-800 text-center shadow-sm">
                         <div
                             class="w-10 h-10 mx-auto bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg mb-4">
                             1</div>
-                        <h4 class="font-bold text-slate-900 dark:text-white mb-2">Daftar</h4>
-                        <p class="text-sm text-slate-500">Isi formulir pendaftaran dan kamu akan dipasangkan dengan
-                            mentor yang cocok.</p>
+                        <h4 class="font-bold text-slate-900 dark:text-white mb-2">Daftar &amp; Briefing</h4>
+                        <p class="text-sm text-slate-500">Isi formulir pendaftaran dan asesmen awal profilmu.</p>
                     </div>
-                    <!-- Step 2 -->
                     <div
                         class="bg-white dark:bg-[#151b2b] p-6 rounded-xl border border-gray-100 dark:border-gray-800 text-center shadow-sm">
                         <div
                             class="w-10 h-10 mx-auto bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg mb-4">
                             2</div>
                         <h4 class="font-bold text-slate-900 dark:text-white mb-2">Brainstorming</h4>
-                        <p class="text-sm text-slate-500">Diskusi intensif untuk menemukan 'unique selling point'
-                            background
+                        <p class="text-sm text-slate-500">Diskusi intensif untuk menemukan 'unique selling point' cerita
                             kamu.</p>
                     </div>
-                    <!-- Step 3 -->
                     <div
                         class="bg-white dark:bg-[#151b2b] p-6 rounded-xl border border-gray-100 dark:border-gray-800 text-center shadow-sm">
                         <div
                             class="w-10 h-10 mx-auto bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg mb-4">
                             3</div>
                         <h4 class="font-bold text-slate-900 dark:text-white mb-2">Drafting &amp; Review</h4>
-                        <p class="text-sm text-slate-500">Proses persiapan dokumen, essay dan dokumen tambahan.
+                        <p class="text-sm text-slate-500">Proses penulisan iteratif dengan feedback detail per paragraf.
                         </p>
                     </div>
-                    <!-- Step 4 -->
                     <div
                         class="bg-white dark:bg-[#151b2b] p-6 rounded-xl border border-gray-100 dark:border-gray-800 text-center shadow-sm">
                         <div
                             class="w-10 h-10 mx-auto bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg mb-4">
                             4</div>
-                        <h4 class="font-bold text-slate-900 dark:text-white mb-2">Support</h4>
-                        <p class="text-sm text-slate-500">Mentor akan tetap membimbing kamu hingga tahap akhir GKS.
+                        <h4 class="font-bold text-slate-900 dark:text-white mb-2">Final Polish</h4>
+                        <p class="text-sm text-slate-500">Pengecekan akhir format dan kelengkapan dokumen siap submit.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- CTA -->
     <section class="py-16 bg-white dark:bg-[#151b2b] border-t border-b border-gray-100 dark:border-gray-800">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div class="flex flex-col items-center gap-6">
@@ -472,8 +408,8 @@
                     Konsultasikan kebutuhanmu dengan tim kami secara gratis untuk menentukan paket yang paling tepat
                     untukmu.
                 </p>
-                <button id="btn-wa-contact"
-                    class="inline-flex items-center justify-center h-12 px-8 rounded-full bg-green-500 hover:bg-green-600 text-white font-bold transition-all shadow-lg hover:shadow-green-500/30 gap-2 mt-2">
+                <a class="inline-flex items-center justify-center h-12 px-8 rounded-full bg-green-500 hover:bg-green-600 text-white font-bold transition-all shadow-lg hover:shadow-green-500/30 gap-2 mt-2"
+                    href="https://wa.me/">
                     <span class="text-white fill-current">
                         <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                             <path
@@ -482,11 +418,10 @@
                         </svg>
                     </span>
                     Hubungi via WhatsApp
-                </button>
+                </a>
             </div>
         </div>
     </section>
-    <!-- Bonus Section -->
     <section class="py-20 bg-blue-900 relative overflow-hidden" id="bonus">
         <div class="absolute inset-0 opacity-10"
             style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 30px 30px;"></div>
@@ -504,7 +439,7 @@
                     </div>
                     <div>
                         <h4 class="font-bold text-white">Database Universitas GKS</h4>
-                        <p class="text-xs text-blue-200">List lengkap jurusan &amp; kuota penerimaan.</p>
+                        <p class="text-sm text-blue-200">List lengkap jurusan &amp; kuota penerimaan.</p>
                     </div>
                 </div>
                 <div class="flex items-center gap-4">
@@ -512,8 +447,8 @@
                         <span class="material-symbols-outlined">article</span>
                     </div>
                     <div>
-                        <h4 class="font-bold text-white">Contoh Esai Pemenang</h4>
-                        <p class="text-xs text-blue-200">Referensi struktur esai yang lolos seleksi.</p>
+                        <h4 class="font-bold text-white">5 Contoh Esai Pemenang</h4>
+                        <p class="text-sm text-blue-200">Referensi struktur esai yang lolos seleksi.</p>
                     </div>
                 </div>
                 <div class="flex items-center gap-4">
@@ -522,7 +457,7 @@
                     </div>
                     <div>
                         <h4 class="font-bold text-white">Interview Cheat Sheet</h4>
-                        <p class="text-sm text-blue-200">Daftar pertanyaan wawancara GKS.</p>
+                        <p class="text-sm text-blue-200">Daftar 50 pertanyaan wawancara tersulit.</p>
                     </div>
                 </div>
                 <div class="flex items-center gap-4">
@@ -536,165 +471,31 @@
                 </div>
             </div>
             <div class="mt-10">
-                <button id="btn-bonus"
+                <button
                     class="bg-white text-primary text-lg font-bold py-4 px-10 rounded-full hover:bg-gray-100 transition-colors shadow-xl">
                     Ambil Bonus &amp; Daftar Sekarang
                 </button>
             </div>
         </div>
     </section>
-    <!-- <section class="py-20 bg-blue-900 relative overflow-hidden" id="bonus">
-        <div class="absolute inset-0 opacity-10"
-            style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 30px 30px;"></div>
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-10">
-                <span
-                    class="inline-block py-1 px-3 rounded bg-accent text-white text-xs font-bold uppercase tracking-wider mb-4">Limited
-                    Time Bonus</span>
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Daftar Hari Ini &amp; Dapatkan Toolkit
-                    Eksklusif</h2>
-                <p class="text-blue-200 text-lg">Lengkapi formulir di bawah ini untuk mengamankan slot mentoring dan
-                    bonus senilai Rp 1.5jt.</p>
-            </div>
-            <div class="grid md:grid-cols-2 gap-8 items-start">
-                <div class="space-y-4">
-                    <div
-                        class="flex items-center gap-4 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl">
-                        <div class="size-10 rounded bg-white/20 flex items-center justify-center text-accent shrink-0">
-                            <span class="material-symbols-outlined">database</span>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-white">Database Universitas GKS</h4>
-                            <p class="text-xs text-blue-200">List lengkap jurusan &amp; kuota penerimaan.</p>
-                        </div>
-                    </div>
-                    <div
-                        class="flex items-center gap-4 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl">
-                        <div class="size-10 rounded bg-white/20 flex items-center justify-center text-accent shrink-0">
-                            <span class="material-symbols-outlined">article</span>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-white">Contoh Esai Pemenang</h4>
-                            <p class="text-xs text-blue-200">Referensi struktur esai yang lolos seleksi.</p>
-                        </div>
-                    </div>
-                    <div
-                        class="flex items-center gap-4 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl">
-                        <div class="size-10 rounded bg-white/20 flex items-center justify-center text-accent shrink-0">
-                            <span class="material-symbols-outlined">forum</span>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-white">Interview Cheat Sheet</h4>
-                            <p class="text-xs text-blue-200">Daftar pertanyaan wawancara GKS.</p>
-                        </div>
-                    </div>
-                    <div
-                        class="flex items-center gap-4 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl">
-                        <div class="size-10 rounded bg-white/20 flex items-center justify-center text-accent shrink-0">
-                            <span class="material-symbols-outlined">calendar_month</span>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-white">Timeline Planner</h4>
-                            <p class="text-xs text-blue-200">Template excel untuk tracking progress.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-white rounded-2xl p-6 md:p-8 shadow-2xl relative">
-                    <div
-                        class="absolute -top-3 -right-3 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full animate-bounce shadow-md z-10">
-                        High Demand!
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-1">Amankan Slot Anda</h3>
-                    <p class="text-sm text-gray-500 mb-6">Kami akan menghubungi Anda via WhatsApp secepatnya.</p>
-                    <form class="space-y-5" id="form-submit">
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-1" for="fullname">Nama
-                                Lengkap</label>
-                            <div class="relative">
-                                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                    <span class="material-symbols-outlined text-gray-400 text-lg">person</span>
-                                </div>
-                                <input
-                                    class="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary sm:text-sm"
-                                    id="fullname" placeholder="John Doe" type="text" required />
-                            </div>
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-1" for="email">Email</label>
-                            <div class="relative">
-                                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                    <span class="material-symbols-outlined text-gray-400 text-lg">email</span>
-                                </div>
-                                <input
-                                    class="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary sm:text-sm"
-                                    id="email" placeholder="john.doe@example.com" type="email" required />
-                            </div>
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-1" for="whatsapp">Nomor
-                                WhatsApp</label>
-                            <div class="relative">
-                                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                    <span class="material-symbols-outlined text-gray-400 text-lg">chat</span>
-                                </div>
-                                <input
-                                    class="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary sm:text-sm"
-                                    id="whatsapp" placeholder="081234567890" type="tel" required />
-                            </div>
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-1" for="program">Pilih
-                                Program</label>
-                            <div class="relative">
-                                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                    <span class="material-symbols-outlined text-gray-400 text-lg">school</span>
-                                </div>
-                                <select
-                                    class="block w-full pl-10 pr-10 py-2.5 border border-gray-300 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary sm:text-sm appearance-none bg-white"
-                                    id="program" required>
-                                    <option disabled="" selected="" value="">-- Pilih Paket --</option>
-                                    <option value="group">Mentoring Semi Private (Rp 549rb)</option>
-                                    <option value="private">Mentoring Private (Rp 1.099rb)</option>
-                                </select>
-                                <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-                                    <span class="material-symbols-outlined text-gray-400 text-lg">expand_more</span>
-                                </div>
-                            </div>
-                        </div>
-                        <button id="btn-submit"
-                            class="w-full flex items-center justify-center gap-2 py-3 px-6 border border-transparent rounded-lg shadow-sm text-sm font-bold text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-all transform hover:-translate-y-0.5"
-                            type="submit">
-                            Daftar Sekarang
-                            <span class="material-symbols-outlined text-sm">arrow_forward</span>
-                        </button>
-                        <p class="text-xs text-center text-gray-400 mt-3">Data Anda aman dan tidak akan dibagikan ke
-                            pihak ketiga.</p>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- Footer -->
     <footer class="bg-background-light dark:bg-[#0b0f17] border-t border-gray-200 dark:border-gray-800 pt-16 pb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-4 gap-8 mb-12">
                 <div class="col-span-1 md:col-span-2">
                     <div class="flex items-center gap-2 mb-4">
-                        <div class="size-12 flex items-center justify-center">
-                            <img src="https://cdn.jsdelivr.net/gh/umarsyarif/hanchin-assets/web/logo160.svg" alt=""
-                                srcset="">
+                        <div class="size-6 rounded bg-primary flex items-center justify-center text-white text-xs">
+                            <span class="material-symbols-outlined text-sm">school</span>
                         </div>
-                        <span class="font-bold text-lg text-slate-900 dark:text-white">Hanchin Korea</span>
+                        <span class="font-bold text-lg text-slate-900 dark:text-white">Hanchin Mentoring</span>
                     </div>
                     <p class="text-slate-500 dark:text-slate-400 text-sm max-w-xs mb-6">
                         Platform mentoring beasiswa Korea terpercaya. Kami membantu pelajar Indonesia meraih pendidikan
                         berkualitas global.
                     </p>
                     <div class="flex gap-4">
-                        <a class="text-slate-400 hover:text-primary transition-colors"
-                            href="https://www.instagram.com/hanchinkorea/">
+                        <a class="text-slate-400 hover:text-primary transition-colors" href="#">
                             <span class="sr-only">Instagram</span>
-                            <svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                                 <path
                                     d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z">
                                 </path>
@@ -730,12 +531,6 @@
         </div>
     </footer>
 
-    <!-- Hidden form for Meta Pixel tracking via Zaraz -->
-    <form id="from-submit" style="display: none;">
-        <input type="hidden" name="source" value="cta-button" />
-    </form>
-
-    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

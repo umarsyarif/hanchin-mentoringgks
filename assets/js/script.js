@@ -22,27 +22,52 @@ function setCookie(name, value, days = 90) {
 
 // Handle form submission
 document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('form-submit');
+    // const form = document.getElementById('form-submit');
 
-    if (form) {
-        form.addEventListener('submit', async function (e) {
+    // if (form) {
+    //     form.addEventListener('submit', async function (e) {
+    //         e.preventDefault();
+
+    //         // Get form values
+    //         const nama = document.getElementById('fullname').value.trim();
+    //         const email = document.getElementById('email').value.trim().toLowerCase();
+    //         const wa = document.getElementById('whatsapp').value.trim();
+
+    //         // Hash email and store in cookie
+    //         const hashedEmail = await sha256(email);
+    //         setCookie('em', hashedEmail);
+    //         // Build WhatsApp redirect URL with form values
+    //         const waText = `Halo admin saya mau daftar Mentoring GKS\n\nNama: ${nama}\nEmail: ${email}\nNo. WA: ${wa}`;
+    //         const encodedText = encodeURIComponent(waText);
+    //         const whatsappUrl = `https://api.whatsapp.com/send?phone=821021824790&text=${encodedText}`;
+
+    //         // Redirect to WhatsApp
+    //         window.location.href = whatsappUrl;
+    //     });
+    // }
+
+    // Hidden form for CTA buttons (triggers Zaraz/Meta Pixel tracking)
+    const hiddenForm = document.getElementById('from-submit');
+    const waContactBtn = document.getElementById('btn-wa-contact');
+    const bonusBtn = document.getElementById('btn-bonus');
+    const waRedirectUrl = 'https://api.whatsapp.com/send?phone=821021824790&text=' + encodeURIComponent('Halo admin saya mau info lebih lanjut mengenai program Mentoring GKS');
+
+    if (hiddenForm) {
+        hiddenForm.addEventListener('submit', function (e) {
             e.preventDefault();
+            window.location.href = waRedirectUrl;
+        });
+    }
 
-            // Get form values
-            const nama = document.getElementById('fullname').value.trim();
-            const email = document.getElementById('email').value.trim().toLowerCase();
-            const wa = document.getElementById('whatsapp').value.trim();
+    if (waContactBtn) {
+        waContactBtn.addEventListener('click', function () {
+            if (hiddenForm) hiddenForm.requestSubmit();
+        });
+    }
 
-            // Hash email and store in cookie
-            const hashedEmail = await sha256(email);
-            setCookie('em', hashedEmail);
-            // Build WhatsApp redirect URL with form values
-            const waText = `Halo admin saya mau daftar Mentoring GKS\n\nNama: ${nama}\nEmail: ${email}\nNo. WA: ${wa}`;
-            const encodedText = encodeURIComponent(waText);
-            const whatsappUrl = `https://api.whatsapp.com/send?phone=821021824790&text=${encodedText}`;
-
-            // Redirect to WhatsApp
-            window.location.href = whatsappUrl;
+    if (bonusBtn) {
+        bonusBtn.addEventListener('click', function () {
+            if (hiddenForm) hiddenForm.requestSubmit();
         });
     }
 });
